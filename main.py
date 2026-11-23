@@ -3,9 +3,10 @@
 
 make.fun bounty: u-ronigrv-a-day-of-one-line-pitches-12cd9bb3
 
-Writes a single original line to entry.txt inside the output directory
+Writes a single original sentence to entry.txt inside the output directory
 (MAKEFUN_OUTPUT_DIR when set, otherwise /output). Standard library only,
-fully deterministic.
+fully deterministic, no network access. The pitch stays honest: on make.fun
+the entrant sets the prize and only the winning entry is paid.
 """
 
 import os
